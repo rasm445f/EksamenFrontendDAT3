@@ -1,0 +1,53 @@
+/* CSS */
+.my-favorite {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("src/resources/plusIcon.png");
+}
+
+
+
+
+
+.my-charity {;
+    background: linear-gradient(-45deg, #5DE6DE,#008CBA, #B58ECC) fixed;
+    margin-block: 5px;
+    margin-inline: 3px;
+    /*background: #FF4742;*/
+    /*border: 1px solid #FF4742;*/
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+                                                   }
+
+.my-charity:hover,
+.my-charity:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+
+}
+
+.my-charity:active {
+    opacity: .5;
+}
