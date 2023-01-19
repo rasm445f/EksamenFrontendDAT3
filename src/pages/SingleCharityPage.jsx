@@ -6,8 +6,8 @@ function SingleCharityPage() {
     const location = useLocation();
 
 
-    let guide = location.state.guide;
-    console.log(guide)
+    let house = location.state.house;
+    console.log(house)
 
     return (
         <div>
@@ -15,21 +15,20 @@ function SingleCharityPage() {
             <table>
             <thead>
                 <tr>
-                    <th>Guide Id: </th>
-                    <th>Guide køn: </th>
-                    <th>Guide fødselsår: </th>
-                    <th>Information:</th>
-                    <th>Billede:</th>
+                    <th>House Id: </th>
+                    <th>Address: </th>
+                    <th>City: </th>
+                    <th>Number of rooms:</th>
+
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td>{guide.id}</td>
-                    <td>{guide.gender}</td>
-                    <td>{guide.birthYear}</td>
-                    <td>{guide.profile}</td>
-                    <td>{guide.imageUrl}</td>
+                    <td>{house.id}</td>
+                    <td>{house.address}</td>
+                    <td>{house.city}</td>
+                    <td>{house.numberOfRooms}</td>
                 </tr>
             </tbody>
 

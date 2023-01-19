@@ -3,8 +3,9 @@ import PostForm from "../components/PostForm.jsx";
 import axios from "axios";
 import EditUser from "../components/EditUser.jsx";
 import {useNavigate} from "react-router-dom";
-import CreateTripForm from '../components/CreateTripForm.jsx';
-import CreateGuideForm from '../components/CreateGuideForm.jsx';
+import CreateTripForm from '../components/CreateBoatForm.jsx';
+import CreateGuideForm from '../components/CreateRentalForm.jsx';
+import CreateBoatForm from "../components/CreateBoatForm.jsx";
 
 function AdminPageDelete({UserId}) {
 
@@ -49,7 +50,7 @@ function AdminPageDelete({UserId}) {
 
 
             {UserId}
-            {<CreateTripForm/>}
+            {<CreateBoatForm/>}
             {<CreateGuideForm/>}
             <br /> 
             
