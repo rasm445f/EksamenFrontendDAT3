@@ -1,18 +1,10 @@
 import React from 'react';
 import {useEffect,useState} from "react";
-import apiFacade from "../utils/apiFacade.js";
-import Login from "../components/Login.jsx";
-import LoggedIn from "../components/LoggedIn.jsx";
 import "../styles/home.css";
 import "../styles/buttons.css";
 import PostForm from "../components/PostForm.jsx";
-import Contact from "./Contact.jsx";
 import {Route, Routes,useNavigate} from "react-router-dom";
-import SingleCharityPage from "./SingleCharityPage.jsx";
-import "../resources/plusIcon.png";
 import table from "react-bootstrap/Table";
-import ShowBoatsInHarbour from "../components/ShowBoatsInHarbour.jsx";
-import ApiFacade from "../utils/apiFacade.js";
 import SeeAllRentals from "../components/seeAllRentals";
 
 
@@ -46,20 +38,6 @@ function Rentals({loggedIn, Username, UserId, role}) {
             state: { house: house },
         })
     }
-
-
-
-
-
-
-
-    const removeCharity = (charity) => {
-        setData(current =>
-            current.filter(obj => {
-                return obj !== charity;
-            }),
-        );
-    };
 
 
     function generateHouseObj(house){

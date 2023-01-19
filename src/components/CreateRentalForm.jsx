@@ -56,13 +56,13 @@ function CreateRentalForm(){
                 <br/>
                 <input onChange={(e)=>handel(e)} id="deposit" value={data.deposit} placeholder={"deposit"} type={"number"}></input>
                 <br/>
-                <input onChange={(e)=>handel(e)} id="JTHouseID.id" value={data.JTHouseID.id} placeholder={"JTHouseID.id"} type={"number"}></input>
+                <input onChange={(e)=>handel(e)} id="JTHouseID.id" value={data.JTHouseID.id} placeholder={"House ID"} type={"number"}></input>
                 <br/>
-                <input onChange={(e)=>handel(e)} id="JTHouseID.address" value={data.JTHouseID.address} placeholder={"JTHouseID.address"} type={"text"}></input>
+                <input onChange={(e)=>handel(e)} id="JTHouseID.address" value={data.JTHouseID.address} placeholder={"Aaddress"} type={"text"}></input>
                 <br/>
-                <input onChange={(e)=>handel(e)} id="JTHouseID.city" value={data.JTHouseID.city} placeholder={"JTHouseID.city"} type={"text"}></input>
+                <input onChange={(e)=>handel(e)} id="JTHouseID.city" value={data.JTHouseID.city} placeholder={"City"} type={"text"}></input>
                 <br/>
-                <input onChange={(e)=>handel(e)} id="JTHouseID.numberOfRooms" value={data.JTHouseID.numberOfRooms} placeholder={"JTHouseID.numberOfRooms"} type={"number"}></input>
+                <input onChange={(e)=>handel(e)} id="JTHouseID.numberOfRooms" value={data.JTHouseID.numberOfRooms} placeholder={"Number Of Rooms"} type={"number"}></input>
                 <br/>
                 
                 <button>submit</button>
